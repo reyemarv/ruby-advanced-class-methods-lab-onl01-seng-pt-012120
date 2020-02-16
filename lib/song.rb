@@ -54,5 +54,9 @@ class Song
     song.artist_name = (name.split(" - ")[0])
     @@all << song 
     song 
+  end
+  
+  def self.destry_all
+    @@all.clear
   end 
 end
